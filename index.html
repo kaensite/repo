@@ -9,17 +9,19 @@
     </style>
     </head>
     <body>
-        Python Example: <br/>
+        <font color='blue'>Python Example: </font><br/>
         <div>
         <div class="column">
-        <!-- add new topics here -->
-        <a href="#" onclick="source_code('print.html')"> print</a> <br/>
-        <a href="#" onclick="source_code('function.html')"> function </a> </br>
+        <!-- topics list starts here -->
+        <a href="#" onclick="source_code('print_example.html')"> print example</a> <br/>
+        <a href="#" onclick="source_code('function_example.html')"> function example</a> </br>
         <a href="#" onclick="source_code('some.html')"></a> </br>
         <a href="#" onclick="source_code('some.html')"></a> </br>
-        <a href="#" onclick="source_code('some.html')"></a> </br>
-        <a href="#" onclick="source_code('some.html')"></a> </br>
-        <!-- new topics end here -->
+        <hr/>
+        <!-- topics list ends here -->
+        <font color='blue'>Other topics: </font><br/>
+        <a href="#" onclick="source_code('doc_website.html')"> create public website</a> <br/>
+        <a href="#" onclick="source_code('doc_localsite.html')"> local website</a> <br/>
         </div>
 
         <p id="source_code"></p>
@@ -42,7 +44,7 @@
                 console.log(text.substring(0, 3000));
                 document.getElementById(tag).innerHTML = text;
                 clear_text(arr, tag);
-            });
+            });             
         }
         </script>
         </div>
